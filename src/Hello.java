@@ -15,6 +15,12 @@ public class Hello {
 
 class MegaFeature {
     public boolean isMega = true;
+    public boolean isFeature = true;
+
+    MegaFeature(boolean mega, boolean feature) {
+        isMega = mega;
+        isFeature = feature;
+    }
 
     public boolean isMega() {
         return isMega;
@@ -22,5 +28,13 @@ class MegaFeature {
 
     public void setMega(boolean mega) {
         isMega = mega;
+    }
+
+    public boolean isFeature() {
+        return isFeature;
+    }
+
+    public void setFeature(boolean feature) {
+        isFeature = feature;
     }
 }
