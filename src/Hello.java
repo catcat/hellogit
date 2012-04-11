@@ -16,6 +16,7 @@ public class Hello {
 class MegaFeature {
     public boolean isMega = true;
     public boolean isFeature = true;
+    public int someFactor = 100;
 
     MegaFeature(boolean mega, boolean feature) {
         isMega = mega;
