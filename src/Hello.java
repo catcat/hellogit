@@ -10,7 +10,7 @@ public class Hello {
     }
 
     public void newFunction() {
-
+        int z = 3333;
     }
 }
 
