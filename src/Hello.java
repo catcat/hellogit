@@ -6,7 +6,7 @@ public class Hello {
     }
 
     public void immediateFix() {
-
+        int i = 2000;
     }
 
     public void newFunction() {
