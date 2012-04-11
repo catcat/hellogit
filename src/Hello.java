@@ -7,4 +7,8 @@ public class Hello {
     public void immediateFix() {
 
     }
+
+    public void newFunction() {
+
+    }
 }
