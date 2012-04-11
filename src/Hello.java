@@ -12,3 +12,15 @@ public class Hello {
 
     }
 }
+
+class MegaFeature {
+    public boolean isMega = true;
+
+    public boolean isMega() {
+        return isMega;
+    }
+
+    public void setMega(boolean mega) {
+        isMega = mega;
+    }
+}
